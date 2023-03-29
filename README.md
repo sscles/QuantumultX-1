@@ -1,13 +1,9 @@
 # Quantumult X 新手入门教程
-电报：https://t.me/kejifenxiang <br>
-Quantumult X 视频教程：▶ https://youtu.be/gNXlxBxFz2A
 
 ## <a href="https://github.com/kjfx/QuantumultX/"><img width="40" src="https://raw.githubusercontent.com/kjfx/QuantumultX/main/country/qx.png" /></a>  一、Quantumult X 简介与下载
 Quantumult X 简称“圈X”，是一款功能强大的网络工具，本文主要介绍它的代理功能。<br>
 Quantumult X 目前支持的协议： SS/SSR、V2Ray、Trojan、HTTP(S)<br>
 Quantumult X 是一款付费APP，7.99美元，需要用美区等AppleID账号登录 Apple Store 下载。
-
-注册美国AppleID教程：<a href="https://github.com/kjfx/AppleID" target="_blank">https://github.com/kjfx/AppleID</a><br><br>
 
 ## 二、Quantumult X 添加节点，订阅链接
 #### 1、通过机场订阅链接导入
@@ -48,7 +44,6 @@ Quantumult X 支持SS/SSR节点链接和扫码添加、支持 Quantumult X 格�
 
 
 ## <h2><a href="https://github.com/kjfx/QuantumultX/"><img width="40" src="https://raw.githubusercontent.com/kjfx/QuantumultX/main/country/qx.png" /></a>  第二部分：Quantumult X 策略组和分流规则，添加使用教程</h2>
-Quantumult X 视频教程：▶ https://youtu.be/Hi1s-SsjUE4
 <h3>分流规则</h3>
 
 #### 1、分流规则是什么？
@@ -133,9 +128,8 @@ IPLC.*香港：节点名称中需同时包含 IPLC和香港 会被选中。
     
     https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_diy.conf
 </span>
-    
+    注：使用懒人配置会重置自定义配置，请保存好自己的配置备份。
 ## <h2><a href="https://github.com/kjfx/QuantumultX/"><img width="40" src="https://raw.githubusercontent.com/kjfx/QuantumultX/main/country/qx.png" /></a>  第三部分：Quantumult X 去广告规则和京东签到</h2>
-Quantumult X 去广告和京东签到视频教程：▶ https://youtu.be/bW7DxHsMzdI
 
 <h3>Quantumult X 去广告</h3>
 
@@ -143,16 +137,12 @@ Quantumult X 去广告和京东签到视频教程：▶ https://youtu.be/bW7DxHs
 - 分享几位大佬提供的配置规则。
 - 第一步：在圈X配置文件里找到 <code>[filter_remote]</code> 添加<br>
 <span>
-    
-    http://limbopro.xyz/Adblock4limbo.list, tag=毒奶特供, force-policy=reject, enabled=true
     https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt, tag=野比(AD_Block), force-policy=reject, enabled=false
     https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt, tag=野比(AD_Block_Plus), force-policy=reject, enabled=true
 </span>
 
 - 第二步：在圈X配置文件里找到 <code>[rewrite_remote]</code> 添加<br>
 <span>
-    
-    http://limbopro.xyz/Adblock4limbo.conf, tag=毒奶特供, enabled=true
     https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=DivineEngine (Youtube AdsBlock), enabled=true
     https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=DivineEngine (Advertising), enabled=true
     https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=NoByDa（lhie1 Rewrite）, enabled=true
